@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Partnerships | The Conservatives</title>
+
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500;700&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+
+    <!-- Main CSS -->
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+
+    <!-- ================= HEADER / NAVIGATION ================= -->
+    <header class="header">
+        <div class="container nav">
+            <h1 class="logo"><img src="assets/images/logo.png" alt="The Conservatives Logo"></h1>
+
+            <nav>
+                <ul class="nav-links">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="academy.html">Leadership Academy</a></li>
+                    <li><a href="strategy.html">Strategic Plan</a></li>
+                    <li><a href="insights.html">Insights</a></li>
+                    <li><a href="partners.html" class="active">Partnerships</a></li>
+                    <li><a href="contact.html" class="btn">Join Us</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- ================= HERO SECTION ================= -->
+    <section class="hero">
+        <div class="container hero-content">
+            <h2>2026: Year of Advocating for Civic Leadership</h2>
+            <p>
+                Join us in a transformative journey to advance ethical governance and civic engagement 
+                across Africa through strategic partnerships and collaborative action.
+            </p>
+        </div>
+    </section>
+
+    <!-- ================= PARTNERSHIP OVERVIEW ================= -->
+    <section class="section light-bg">
+        <div class="container">
+            <h3 class="section-title">Build the Future Together</h3>
+            <p class="section-subtitle">We are seeking partnerships with organizations that share our commitment to ethical leadership and civic transformation.</p>
+            
+            <div class="partners-types">
+                <div class="partner-type-card">
+                    <div class="partner-icon">🏢</div>
+                    <h4>NGOs & Civil Society</h4>
+                    <p>Collaborate with us to expand the reach of our ethical leadership programs and create systemic change in governance and civic engagement across communities.</p>
+                </div>
+
+                <div class="partner-type-card">
+                    <div class="partner-icon">🎓</div>
+                    <h4>Educational Institutions</h4>
+                    <p>Partner with schools and universities to integrate civic leadership training into curricula and develop the next generation of ethical leaders in Africa.</p>
+                </div>
+
+                <div class="partner-type-card">
+                    <div class="partner-icon">⛪</div>
+                    <h4>Faith Communities</h4>
+                    <p>Work with churches and faith-based organizations to promote spiritual values aligned with ethical leadership and moral integrity in public service.</p>
+                </div>
+
+                <div class="partner-type-card">
+                    <div class="partner-icon">💼</div>
+                    <h4>Corporate Partners</h4>
+                    <p>Join forces with businesses committed to corporate social responsibility and supporting Africa's ethical leadership development agenda.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ================= 2026 VISION ================= -->
+    <section class="section">
+        <div class="container">
+            <h3 class="section-title">Our 2026 Goals</h3>
+            
+            <div class="goals-grid">
+                <div class="goal-card">
+                    <h4>Expand Youth Training</h4>
+                    <p>Scale our ethical governance training to reach 500+ youth across multiple African nations through partnerships with educational institutions.</p>
+                </div>
+
+                <div class="goal-card">
+                    <h4>Strengthen Communities</h4>
+                    <p>Establish civic leadership hubs in 10+ communities, providing platforms for dialogue, learning, and collaborative action on governance issues.</p>
+                </div>
+
+                <div class="goal-card">
+                    <h4>Policy Advocacy</h4>
+                    <p>Collaborate with government and civil society partners to advocate for policies that promote integrity, accountability, and transparent governance.</p>
+                </div>
+
+                <div class="goal-card">
+                    <h4>Mentorship Network</h4>
+                    <p>Build a continent-wide mentorship network connecting emerging leaders with established ethical leaders and governance experts.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ================= PARTNERSHIP FORM ================= -->
+    <section class="section light-bg">
+        <div class="container">
+            <div class="form-wrapper">
+                <div class="form-header">
+                    <h3 class="section-title">Join Our Movement</h3>
+                    <p class="section-subtitle">Are you ready to partner with us or contribute to this transformative initiative? Share your information below.</p>
+                </div>
+
+                <form class="partnership-form" action="submit_partnership.php" method="POST">
+                    <div class="form-row">
+                        <div class="form-group">
+                            <label for="fullname">Full Name *</label>
+                            <input type="text" id="fullname" name="fullname" required placeholder="Your Full Name">
+                        </div>
+
+                        <div class="form-group">
+                            <label for="email">Email Address *</label>
+                            <input type="email" id="email" name="email" required placeholder="your.email@example.com">
+                        </div>
+                    </div>
+
+                    <div class="form-row">
+                        <div class="form-group">
+                            <label for="phone">Phone Number</label>
+                            <input type="tel" id="phone" name="phone" placeholder="+260 XXX XXX XXX">
+                        </div>
+
+                        <div class="form-group">
+                            <label for="organization">Organization/Institution Name *</label>
+                            <input type="text" id="organization" name="organization" required placeholder="NGO, School, Church, Business, etc.">
+                        </div>
+                    </div>
+
+                    <div class="form-row">
+                        <div class="form-group full-width">
+                            <label for="org-type">Organization Type *</label>
+                            <select id="org-type" name="org-type" required>
+                                <option value="">Select Organization Type</option>
+                                <option value="ngo">NGO / Civil Society Organization</option>
+                                <option value="school">School / Educational Institution</option>
+                                <option value="university">University</option>
+                                <option value="church">Church / Faith Community</option>
+                                <option value="corporate">Corporate / Business</option>
+                                <option value="government">Government Agency</option>
+                                <option value="other">Other</option>
+                            </select>
+                        </div>
+                    </div>
+
+                    <div class="form-row">
+                        <div class="form-group full-width">
+                            <label for="interest">I am interested in: *</label>
+                            <div class="checkbox-group">
+                                <label class="checkbox-label">
+                                    <input type="checkbox" name="interest" value="partnership"> Strategic Partnership
+                                </label>
+                                <label class="checkbox-label">
+                                    <input type="checkbox" name="interest" value="donation"> Donation / Financial Support
+                                </label>
+                                <label class="checkbox-label">
+                                    <input type="checkbox" name="interest" value="volunteering"> Volunteering / In-Kind Support
+                                </label>
+                                <label class="checkbox-label">
+                                    <input type="checkbox" name="interest" value="collaboration"> Research / Knowledge Collaboration
+                                </label>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="form-row">
+                        <div class="form-group full-width">
+                            <label for="message">Tell us about your organization and how you'd like to collaborate *</label>
+                            <textarea id="message" name="message" required placeholder="Share your vision and how we can work together to advance civic leadership..." rows="5"></textarea>
+                        </div>
+                    </div>
+
+                    <div class="form-row">
+                        <div class="form-group full-width">
+                            <label for="budget">Proposed Contribution (if applicable)</label>
+                            <input type="text" id="budget" name="budget" placeholder="e.g., USD 5,000 or In-kind resources">
+                        </div>
+                    </div>
+
+                    <div class="form-row">
+                        <div class="form-group full-width">
+                            <label class="checkbox-label">
+                                <input type="checkbox" name="terms" required> I agree to be contacted regarding partnership opportunities and updates about The Conservatives
+                            </label>
+                        </div>
+                    </div>
+
+                    <div class="form-row">
+                        <button type="submit" class="btn-primary">Submit Partnership Request</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- ================= WHY PARTNER ================= -->
+    <section class="section">
+        <div class="container">
+            <h3 class="section-title">Why Partner With Us?</h3>
+            
+            <div class="benefits-grid">
+                <div class="benefit-card">
+                    <h4>Proven Impact</h4>
+                    <p>We've trained hundreds of youth in ethical governance and established meaningful networks across Africa.</p>
+                </div>
+
+                <div class="benefit-card">
+                    <h4>Transparent Operations</h4>
+                    <p>As advocates for ethical leadership, we maintain the highest standards of transparency and accountability in all our operations.</p>
+                </div>
+
+                <div class="benefit-card">
+                    <h4>Collaborative Approach</h4>
+                    <p>We work as equal partners, respecting your organization's mission and integrating our efforts for maximum impact.</p>
+                </div>
+
+                <div class="benefit-card">
+                    <h4>Lasting Change</h4>
+                    <p>Our programs focus on sustainable, long-term transformation of governance practices and civic engagement across communities.</p>
+                </div>
+
+                <div class="benefit-card">
+                    <h4>Continental Network</h4>
+                    <p>Partner with a growing network of ethical leaders, organizations, and institutions across Africa.</p>
+                </div>
+
+                <div class="benefit-card">
+                    <h4>2026 Momentum</h4>
+                    <p>Join us in what promises to be a transformative year for civic leadership advocacy across the continent.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ================= CTA ================= -->
+    <section class="cta">
+        <div class="container">
+            <h3>Ready to Make a Difference?</h3>
+            <p>Whether through partnership, donation, or collaboration, your contribution matters. 
+            Together, we are building Africa's ethical leadership movement.</p>
+            <a href="#partnership-form" class="btn-primary">Start a Partnership</a>
+        </div>
+    </section>
+
+    <!-- ================= FOOTER ================= -->
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2025 The Conservatives. All rights reserved. | Ethical Leadership for Africa</p>
+            <div class="footer-links">
+                <a href="#">Privacy Policy</a>
+                <a href="#">Terms of Service</a>
+                <a href="contact.html">Contact Us</a>
+            </div>
+        </div>
+    </footer>
+</footer>
+
+    <script src="assets/js/main.js"></script>
+</body>
+</html>

@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact | The Conservatives</title>
+
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500;700&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+
+    <!-- Main CSS -->
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+
+    <!-- ================= HEADER / NAVIGATION ================= -->
+    <header class="header">
+        <div class="container nav">
+            <h1 class="logo"><img src="assets/images/logo.png" alt="The Conservatives Logo"></h1>
+
+            <nav>
+                <ul class="nav-links">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="academy.html">Leadership Academy</a></li>
+                    <li><a href="strategy.html">Strategic Plan</a></li>
+                    <li><a href="insights.html">Insights</a></li>
+                    <li><a href="partners.html">Partnerships</a></li>
+                    <li><a href="contact.html" class="active">Join Us</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- ================= HERO SECTION ================= -->
+    <section class="hero">
+        <div class="container hero-content">
+            <h2>Join The Conservatives</h2>
+            <p>Become a member, partner, or supporter — help us advance civic leadership across Africa.</p>
+        </div>
+    </section>
+
+    <!-- ================= MEMBERSHIP FORM ================= -->
+    <section class="section light-bg">
+        <div class="container">
+            <h3 class="section-title">Membership Application</h3>
+            <p class="section-subtitle">Fill the form below to become a member of The Conservatives.</p>
+
+            <div class="form-wrapper">
+                <form class="membership-form" action="submit_membership.php" method="POST">
+                    <div class="form-row">
+                        <div class="form-group">
+                            <label for="name">Full Name *</label>
+                            <input type="text" id="name" name="name" required placeholder="Your full name">
+                        </div>
+
+                        <div class="form-group">
+                            <label for="email">Email *</label>
+                            <input type="email" id="email" name="email" required placeholder="your.email@example.com">
+                        </div>
+                    </div>
+
+                    <div class="form-row">
+                        <div class="form-group">
+                            <label for="phone">Phone Number</label>
+                            <input type="tel" id="phone" name="phone" placeholder="+260 XXX XXX XXX">
+                        </div>
+
+                        <div class="form-group">
+                            <label for="occupation">Occupation</label>
+                            <input type="text" id="occupation" name="occupation" placeholder="Student, Professional, etc.">
+                        </div>
+                    </div>
+
+                    <div class="form-row">
+                        <div class="form-group full-width">
+                            <label for="interest">Interest Areas *</label>
+                            <select id="interest" name="interest" required>
+                                <option value="">Select an area</option>
+                                <option value="training">Training & Capacity Building</option>
+                                <option value="advocacy">Advocacy & Policy</option>
+                                <option value="volunteer">Volunteer / Community Work</option>
+                                <option value="research">Research & Partnerships</option>
+                            </select>
+                        </div>
+                    </div>
+
+                    <div class="form-row">
+                        <div class="form-group full-width">
+                            <label for="why">Why do you want to join? *</label>
+                            <textarea id="why" name="why" rows="5" required placeholder="Tell us why you want to be part of The Conservatives..."></textarea>
+                        </div>
+                    </div>
+
+                    <div class="form-row">
+                        <button type="submit" class="btn-primary">Apply for Membership</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- ================= CONTACTS ================= -->
+    <section class="section">
+        <div class="container">
+            <h3 class="section-title">Contact Our Team</h3>
+            <p class="section-subtitle">For inquiries, reach out directly to our secretariat.</p>
+
+            <div class="contacts-grid">
+                <div class="contact-card">
+                    <div class="founder-image-wrapper">
+                        <img src="assets/images/elias.jpg" alt="Elias Mpankata">
+                    </div>
+                    <h4>Elias Mpankata</h4>
+                    <p class="role">Vice Secretary</p>
+                    <p class="contact-phone">+260 975 991 182</p>
+                </div>
+
+                <div class="contact-card">
+                    <div class="founder-image-wrapper">
+                        <img src="assets/images/joy.jpg" alt="Joy Luna Phiri">
+                    </div>
+                    <h4>Joy Luna Phiri</h4>
+                    <p class="role">General Secretary</p>
+                    <p class="contact-phone">+260 975 742 86</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ================= FOUNDER MESSAGE ================= -->
+    <section class="section light-bg">
+        <div class="container">
+            <h3 class="section-title">Message from the Founder</h3>
+            <p class="founder-message">"At The Conservatives, our mission is to nurture ethical leaders who will serve with integrity, compassion, and competence. As we continue our Road to 2026 advocating for civic leadership, every member, partner, and supporter plays a vital role. Join us in shaping a future defined by accountable, principled leadership across Africa."</p>
+        </div>
+    </section>
+
+    <!-- ================= 2026 ADVOCACY MESSAGE ================= -->
+    <section class="section">
+        <div class="container">
+            <h3 class="section-title">Road to 2026</h3>
+            <p class="section-subtitle">Our Year of Advocating for Civic Leadership</p>
+            <p>In 2026, we are focused on expanding our reach, strengthening partnerships with NGOs, schools, and faith communities, and mobilizing resources to train and mentor the next generation of civic leaders. We invite you to partner with us—through membership, partnership, or donation—to amplify impact and build a more just, accountable society.</p>
+        </div>
+    </section>
+
+    <!-- ================= FOOTER ================= -->
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2025 The Conservatives. All rights reserved. | Ethical Leadership for Africa</p>
+            <div class="footer-links">
+                <a href="#">Privacy Policy</a>
+                <a href="#">Terms of Service</a>
+                <a href="partners.html">Partner With Us</a>
+            </div>
+        </div>
+    </footer>
+</footer>
+
+    <script src="assets/js/main.js"></script>
+</body>
+</html>
